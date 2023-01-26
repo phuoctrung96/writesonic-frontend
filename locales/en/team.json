@@ -1,0 +1,23 @@
+{
+  "invite_member": "Invite Team",
+  "invite_your_team_members": "Invite your team members using their emails.",
+  "Add_Team_Members": "Add Team Members",
+  "Email_address": "Email address",
+  "Invite": "Invite",
+  "Search_by_email_address": "Search by email address",
+  "MEMBER": "MEMBER",
+  "ROLE": "ROLE",
+  "Please_ask_the_account_admin_to_add_or_remove_team_members": "Please ask the account admin to add or remove team members",
+  "owner": "owner",
+  "admin": "admin",
+  "member": "member",
+  "Update_Role": "Update Role",
+  "Update": "Update",
+  "team_name": "Team name",
+  "your_team": "Your Team",
+  "set_team_name": "Set your team's name and other details.",
+  "Create": "Create",
+  "Team": "Team",
+  "Role": "Role",
+  "To_view_or_modify_billing_options_please_talk_to_your_account_owner": "To view or modify billing options please talk to your account owner"
+}

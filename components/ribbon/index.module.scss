@@ -1,0 +1,10 @@
+.ribbon {
+  --ribbon-size: 10px;
+  --ribbon-padding-y: 8px;
+  padding-left: var(--ribbon-padding-y);
+  padding-right: var(--ribbon-padding-y);
+  padding-inline-start: calc(var(--ribbon-size) + var(--ribbon-padding-y));
+  border-radius: 3px 0 0 3px;
+  width: fit-content;
+  clip-path: polygon(0 0, var(--ribbon-size) 50%, 0 100%, 100% 100%, 100% 0);
+}

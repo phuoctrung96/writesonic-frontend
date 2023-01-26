@@ -1,0 +1,23 @@
+{
+  "invite_member": "Пригласить команду",
+  "invite_your_team_members": "Пригласите членов вашей команды по электронной почте.",
+  "Add_Team_Members": "Добавить членов команды",
+  "Email_address": "Адрес электронной почты",
+  "Invite": "Приглашать",
+  "Search_by_email_address": "Поиск по адресу электронной почты",
+  "MEMBER": "ЧЛЕН",
+  "ROLE": "РОЛЬ",
+  "Please_ask_the_account_admin_to_add_or_remove_team_members": "Попросите администратора аккаунта добавить или удалить членов команды",
+  "owner": "владелец",
+  "admin": "админ",
+  "member": "член",
+  "Update_Role": "Обновить роль",
+  "Update": "Обновлять",
+  "team_name": "Название команды",
+  "your_team": "Твоя команда",
+  "set_team_name": "Задайте название вашей команды и другие детали.",
+  "Create": "Создавать",
+  "Team": "Команда",
+  "Role": "Роль",
+  "To_view_or_modify_billing_options_please_talk_to_your_account_owner": "Чтобы просмотреть или изменить параметры оплаты, обратитесь к владельцу учетной записи."
+}

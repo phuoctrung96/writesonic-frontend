@@ -1,0 +1,23 @@
+{
+  "invite_member": "Inviter l'équipe",
+  "invite_your_team_members": "Invitez les membres de votre équipe en utilisant leurs e-mails.",
+  "Add_Team_Members": "Ajouter des membres d'équipe",
+  "Email_address": "Adresse e-mail",
+  "Invite": "Inviter",
+  "Search_by_email_address": "Recherche par adresse e-mail",
+  "MEMBER": "MEMBRE",
+  "ROLE": "RÔLE",
+  "Please_ask_the_account_admin_to_add_or_remove_team_members": "Veuillez demander à l'administrateur du compte d'ajouter ou de supprimer des membres de l'équipe",
+  "owner": "propriétaire",
+  "admin": "administrateur",
+  "member": "membre",
+  "Update_Role": "Mettre à jour le rôle",
+  "Update": "Mettre à jour",
+  "team_name": "Nom de l'équipe",
+  "your_team": "Ton équipe",
+  "set_team_name": "Définissez le nom de votre équipe et d'autres détails.",
+  "Create": "Créer",
+  "Team": "Équipe",
+  "Role": "Rôle",
+  "To_view_or_modify_billing_options_please_talk_to_your_account_owner": "Pour afficher ou modifier les options de facturation, veuillez contacter le propriétaire de votre compte"
+}

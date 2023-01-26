@@ -1,0 +1,418 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Thin.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-ThinItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-ExtraLight.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-ExtraLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-ExtraLightItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-ExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Light.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-LightItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Regular.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Italic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Medium.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-MediumItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-SemiBold.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Bold.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-Black.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-Black.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/Inter/Inter-BlackItalic.woff2") format("woff2"),
+    url("/fonts/Inter/Inter-BlackItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("/fonts/Inter/Inter-roman.var.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url("/fonts/Inter/Inter-italic.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var experimental";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url("/fonts/Inter/Inter.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: "Regular";
+  src: url("/fonts/Inter/Inter-roman.var.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Inter var";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: "Italic";
+  src: url("/fonts/Inter/Inter-italic.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter var experimental";
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url("/fonts/Inter/Inter.var.woff2") format("woff2");
+}
+
+/* Segoe UI Font */
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 100 200 300 400 500;
+  font-display: swap;
+  src: url("/fonts/Segoe_UI/Segoe_UI.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 100 200 300 400 500;
+  font-display: swap;
+  src: url("/fonts/Segoe_UI/Segoe_UI_Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 600 700 800 900;
+  font-display: swap;
+  src: url("/fonts/Segoe_UI/Segoe_UI_Bold_Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-style: bold;
+  font-weight: 600 700 800 900;
+  font-display: swap;
+  src: url("/fonts/Segoe_UI/Segoe_UI_Bold.ttf") format("ttf");
+}
+
+html,
+body {
+  font-family: Inter;
+}
+
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 0 !important;
+}
+
+.MuiIconButton-root {
+  padding: 0 15px !important;
+}
+
+.MuiAccordionDetails-root {
+  padding: 5px 0 10px 0 !important;
+}
+
+.ql-toolbar {
+  background-color: white;
+}
+.ql-container {
+  background-color: white !important;
+  margin-bottom: 10px;
+}
+
+/* customize quill of writing-assistant and article writer css */
+
+#writing-assistant-quill .ql-toolbar {
+  display: none;
+}
+
+#writing-assistant-quill .ql-container.ql-snow {
+  border: none;
+}
+
+#writing-assistant-quill .ql-editor,
+.DraftEditor-editorContainer {
+  -webkit-font-smoothing: antialiased;
+  transform: translateZ(
+    0
+  ); /* Fix for text disappear onscroll in article writer. */
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, Arial;
+  color: rgb(14, 16, 26);
+  font-size: calc(1.0625px * 16);
+  font-weight: 400;
+  letter-spacing: calc(0px * 16);
+  line-height: calc(2px * 16);
+}
+
+#variation-content .variation {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, Arial;
+  color: rgb(14, 16, 26);
+  font-size: calc(0.875px * var(--rem));
+  font-weight: 400;
+  letter-spacing: calc(0px * var(--rem));
+  line-height: calc(1.5px * var(--rem));
+}
+@media only screen and (max-width: 1024px) {
+  #writing-assistant-quill .ql-editor {
+    padding: 2.5rem 1rem;
+  }
+}
+
+#writing-assistant-quill .ql-editor h1,
+.DraftEditor-editorContainer h1 {
+  color: rgb(14, 16, 26);
+  font-size: calc(1.375px * 16);
+  line-height: calc(2px * 16);
+  margin: 0 0 calc(0.5px * 16);
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#writing-assistant-quill .ql-editor h2,
+.DraftEditor-editorContainer h2 {
+  font-size: calc(1.125px * 16);
+  line-height: calc(1.7px * 16);
+  margin: 0 0 calc(0.5px * 16);
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#writing-assistant-quill .ql-editor ol,
+.DraftEditor-editorContainer ol {
+  margin: 0 0 calc(0.5px * 16);
+  padding-left: 0;
+}
+#writing-assistant-quill .ql-editor li,
+.DraftEditor-editorContainer li {
+  list-style-type: none;
+  margin: 0 0 0 calc(3px * 16);
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#writing-assistant-quill .ql-editor ol li,
+.DraftEditor-editorContainer ol li {
+  counter-increment: list0;
+  counter-reset: list1 list2 list3 list4 list5 list6 list7 list8;
+  list-style-type: none;
+  margin: 0 0 0 calc(3px * 16);
+  padding-right: 0;
+}
+
+#writing-assistant-quill .ql-editor ol li:before,
+.DraftEditor-editorContainer ol li:before {
+  content: counter(list0, decimal) ". ";
+}
+
+#writing-assistant-quill .ql-editor li:before {
+  display: inline-block;
+  line-height: calc(1.375px * 16);
+  margin-left: calc(-3px * 16);
+  margin-right: calc(0.5px * 16);
+  text-align: right;
+  white-space: nowrap;
+  width: calc(2.5px * 16);
+}
+
+.DraftEditor-editorContainer li:before {
+  display: inline-block;
+  text-align: right;
+  white-space: nowrap;
+  width: calc(2.5px * 16);
+}
+
+#writing-assistant-quill .ql-editor ul:not(:first-child),
+.DraftEditor-editorContainer ul:not(:first-child) {
+  margin-top: calc(0.5px * 16);
+}
+
+#writing-assistant-quill .ql-editor ul,
+.DraftEditor-editorContainer ul {
+  margin: 0 0 calc(0.5px * 16);
+  padding-left: 0;
+}
+
+#writing-assistant-quill a,
+#article-writer-quill a {
+  background-color: transparent;
+  color: rgb(74, 110, 224);
+  text-decoration: underline;
+}
+
+/* custom scroll */
+#form-content .scroll-content {
+  height: 100%;
+}
+
+#variation-content .scroll-content {
+  height: 100%;
+}
+
+/* smooth scroll bar */
+.scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+/* intl-tel-input */
+
+.iti.iti--allow-dropdown {
+  width: 100%;
+}
+
+.disable-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,17 @@
+{
+  "locales": ["en", "es", "fr", "pl", "pt-pt", "de", "it", "ru"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": [
+      "common",
+      "side_bar",
+      "nav_bar",
+      "settings",
+      "inputs",
+      "empty",
+      "team",
+      "earn_free_credits"
+    ],
+    "/join/[invitedId]": ["join"]
+  }
+}

@@ -1,0 +1,9 @@
+.bottom-content {
+  display: block;
+}
+
+@media (max-height: 920px) {
+  .bottom-content {
+    display: none;
+  }
+}
